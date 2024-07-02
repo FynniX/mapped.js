@@ -67,11 +67,11 @@ AT: '@';
 
 STRING: DELIMITER .*? DELIMITER;
 
-// A word can be letters [A-Za-z0-9]+
-NAME: [A-Za-z0-9]+;
-
 // A number can only be between 0-9+
 NUMBER: [0-9]+;
+
+// A word can be letters [A-Za-z0-9]+
+NAME: [A-Za-z0-9]+;
 
 NEWLINE: [\r\n]+ -> skip;
 WHITESPACE: ' ' -> skip;

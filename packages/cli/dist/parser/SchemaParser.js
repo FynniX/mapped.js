@@ -97,7 +97,7 @@ class SchemaParser extends antlr4.Parser {
                     this.state = 32;
                     this._errHandler.sync(this);
                     _la = this._input.LA(1);
-                } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & 2155872248) !== 0));
+                } while (((((_la - 3)) & ~0x1F) === 0 && ((1 << (_la - 3)) & 537919487) !== 0));
                 this.state = 34;
                 this.match(SchemaParser.CURVED_BRACKET_CLOSE);
             }
@@ -207,7 +207,7 @@ class SchemaParser extends antlr4.Parser {
                         this.match(SchemaParser.SEMICOLON);
                     }
                     break;
-                case 31:
+                case 32:
                     this.enterOuterAlt(localctx, 2);
                     {
                         this.state = 51;
@@ -412,8 +412,8 @@ SchemaParser.BRACKET_CLOSE = 27;
 SchemaParser.DELIMITER = 28;
 SchemaParser.AT = 29;
 SchemaParser.STRING = 30;
-SchemaParser.NAME = 31;
-SchemaParser.NUMBER = 32;
+SchemaParser.NUMBER = 31;
+SchemaParser.NAME = 32;
 SchemaParser.NEWLINE = 33;
 SchemaParser.WHITESPACE = 34;
 SchemaParser.EOF = antlr4.Token.EOF;
@@ -467,7 +467,7 @@ SchemaParser.symbolicNames = [null, null,
     "BRACKET_CLOSE",
     "DELIMITER",
     "AT", "STRING",
-    "NAME", "NUMBER",
+    "NUMBER", "NAME",
     "NEWLINE",
     "WHITESPACE"];
 // tslint:disable:no-trailing-whitespace
@@ -485,17 +485,17 @@ SchemaParser._serializedATN = [4, 1, 34, 74, 2, 0, 7, 0, 2,
     0, 0, 10, 65, 1, 0, 0, 0, 12, 69, 1, 0, 0, 0, 14, 71, 1, 0, 0, 0, 16, 18, 3, 2, 1, 0, 17, 16, 1, 0, 0,
     0, 18, 19, 1, 0, 0, 0, 19, 17, 1, 0, 0, 0, 19, 20, 1, 0, 0, 0, 20, 21, 1, 0, 0, 0, 21, 22, 5, 0, 0, 1,
     22, 1, 1, 0, 0, 0, 23, 25, 3, 4, 2, 0, 24, 23, 1, 0, 0, 0, 24, 25, 1, 0, 0, 0, 25, 26, 1, 0, 0, 0, 26,
-    27, 5, 1, 0, 0, 27, 28, 5, 31, 0, 0, 28, 30, 5, 24, 0, 0, 29, 31, 3, 6, 3, 0, 30, 29, 1, 0, 0, 0, 31,
+    27, 5, 1, 0, 0, 27, 28, 5, 32, 0, 0, 28, 30, 5, 24, 0, 0, 29, 31, 3, 6, 3, 0, 30, 29, 1, 0, 0, 0, 31,
     32, 1, 0, 0, 0, 32, 30, 1, 0, 0, 0, 32, 33, 1, 0, 0, 0, 33, 34, 1, 0, 0, 0, 34, 35, 5, 25, 0, 0, 35,
     3, 1, 0, 0, 0, 36, 37, 5, 29, 0, 0, 37, 38, 5, 2, 0, 0, 38, 39, 5, 30, 0, 0, 39, 5, 1, 0, 0, 0, 40, 42,
     3, 12, 6, 0, 41, 40, 1, 0, 0, 0, 42, 43, 1, 0, 0, 0, 43, 41, 1, 0, 0, 0, 43, 44, 1, 0, 0, 0, 44, 45,
-    1, 0, 0, 0, 45, 47, 5, 31, 0, 0, 46, 48, 3, 8, 4, 0, 47, 46, 1, 0, 0, 0, 47, 48, 1, 0, 0, 0, 48, 49,
-    1, 0, 0, 0, 49, 50, 5, 23, 0, 0, 50, 59, 1, 0, 0, 0, 51, 52, 3, 14, 7, 0, 52, 54, 5, 31, 0, 0, 53, 55,
+    1, 0, 0, 0, 45, 47, 5, 32, 0, 0, 46, 48, 3, 8, 4, 0, 47, 46, 1, 0, 0, 0, 47, 48, 1, 0, 0, 0, 48, 49,
+    1, 0, 0, 0, 49, 50, 5, 23, 0, 0, 50, 59, 1, 0, 0, 0, 51, 52, 3, 14, 7, 0, 52, 54, 5, 32, 0, 0, 53, 55,
     3, 8, 4, 0, 54, 53, 1, 0, 0, 0, 54, 55, 1, 0, 0, 0, 55, 56, 1, 0, 0, 0, 56, 57, 5, 23, 0, 0, 57, 59,
     1, 0, 0, 0, 58, 41, 1, 0, 0, 0, 58, 51, 1, 0, 0, 0, 59, 7, 1, 0, 0, 0, 60, 62, 3, 10, 5, 0, 61, 60, 1,
     0, 0, 0, 62, 63, 1, 0, 0, 0, 63, 61, 1, 0, 0, 0, 63, 64, 1, 0, 0, 0, 64, 9, 1, 0, 0, 0, 65, 66, 5, 26,
-    0, 0, 66, 67, 5, 32, 0, 0, 67, 68, 5, 27, 0, 0, 68, 11, 1, 0, 0, 0, 69, 70, 7, 0, 0, 0, 70, 13, 1, 0,
-    0, 0, 71, 72, 5, 31, 0, 0, 72, 15, 1, 0, 0, 0, 8, 19, 24, 32, 43, 47, 54, 58, 63];
+    0, 0, 66, 67, 5, 31, 0, 0, 67, 68, 5, 27, 0, 0, 68, 11, 1, 0, 0, 0, 69, 70, 7, 0, 0, 0, 70, 13, 1, 0,
+    0, 0, 71, 72, 5, 32, 0, 0, 72, 15, 1, 0, 0, 0, 8, 19, 24, 32, 43, 47, 54, 58, 63];
 SchemaParser.DecisionsToDFA = SchemaParser._ATN.decisionToState.map((ds, index) => new antlr4.DFA(ds, index));
 class SchemaContext extends antlr4.ParserRuleContext {
     constructor(parser, parent, invokingState) {

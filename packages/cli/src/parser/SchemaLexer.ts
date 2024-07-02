@@ -42,8 +42,8 @@ export default class SchemaLexer extends Lexer {
 	public static readonly DELIMITER = 28;
 	public static readonly AT = 29;
 	public static readonly STRING = 30;
-	public static readonly NAME = 31;
-	public static readonly NUMBER = 32;
+	public static readonly NUMBER = 31;
+	public static readonly NAME = 32;
 	public static readonly NEWLINE = 33;
 	public static readonly WHITESPACE = 34;
 	public static readonly EOF = Token.EOF;
@@ -91,7 +91,7 @@ export default class SchemaLexer extends Lexer {
                                                              "BRACKET_CLOSE", 
                                                              "DELIMITER", 
                                                              "AT", "STRING", 
-                                                             "NAME", "NUMBER", 
+                                                             "NUMBER", "NAME", 
                                                              "NEWLINE", 
                                                              "WHITESPACE" ];
 	public static readonly modeNames: string[] = [ "DEFAULT_MODE", ];
@@ -101,7 +101,7 @@ export default class SchemaLexer extends Lexer {
 		"T__9", "T__10", "T__11", "T__12", "T__13", "T__14", "T__15", "T__16", 
 		"T__17", "T__18", "T__19", "T__20", "T__21", "SEMICOLON", "CURVED_BRACKET_OPEN", 
 		"CURVED_BRACKET_CLOSE", "BRACKET_OPEN", "BRACKET_CLOSE", "DELIMITER", 
-		"AT", "STRING", "NAME", "NUMBER", "NEWLINE", "WHITESPACE",
+		"AT", "STRING", "NUMBER", "NAME", "NEWLINE", "WHITESPACE",
 	];
 
 
@@ -144,7 +144,7 @@ export default class SchemaLexer extends Lexer {
 	1,245,0,34,1,1,3,2,5,3,7,4,9,5,11,6,13,7,15,8,17,9,19,10,21,11,23,12,25,
 	13,27,14,29,15,31,16,33,17,35,18,37,19,39,20,41,21,43,22,45,23,47,24,49,
 	25,51,26,53,27,55,28,57,29,59,30,61,31,63,32,65,33,67,34,1,0,4,2,0,34,34,
-	39,39,3,0,48,57,65,90,97,122,1,0,48,57,2,0,10,10,13,13,274,0,1,1,0,0,0,
+	39,39,1,0,48,57,3,0,48,57,65,90,97,122,2,0,10,10,13,13,274,0,1,1,0,0,0,
 	0,3,1,0,0,0,0,5,1,0,0,0,0,7,1,0,0,0,0,9,1,0,0,0,0,11,1,0,0,0,0,13,1,0,0,
 	0,0,15,1,0,0,0,0,17,1,0,0,0,0,19,1,0,0,0,0,21,1,0,0,0,0,23,1,0,0,0,0,25,
 	1,0,0,0,0,27,1,0,0,0,0,29,1,0,0,0,0,31,1,0,0,0,0,33,1,0,0,0,0,35,1,0,0,

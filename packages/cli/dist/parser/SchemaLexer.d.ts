@@ -30,8 +30,8 @@ export default class SchemaLexer extends Lexer {
     static readonly DELIMITER = 28;
     static readonly AT = 29;
     static readonly STRING = 30;
-    static readonly NAME = 31;
-    static readonly NUMBER = 32;
+    static readonly NUMBER = 31;
+    static readonly NAME = 32;
     static readonly NEWLINE = 33;
     static readonly WHITESPACE = 34;
     static readonly EOF: number;

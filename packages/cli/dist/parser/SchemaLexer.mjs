@@ -52,8 +52,8 @@ SchemaLexer.BRACKET_CLOSE = 27;
 SchemaLexer.DELIMITER = 28;
 SchemaLexer.AT = 29;
 SchemaLexer.STRING = 30;
-SchemaLexer.NAME = 31;
-SchemaLexer.NUMBER = 32;
+SchemaLexer.NUMBER = 31;
+SchemaLexer.NAME = 32;
 SchemaLexer.NEWLINE = 33;
 SchemaLexer.WHITESPACE = 34;
 SchemaLexer.EOF = Token.EOF;
@@ -100,7 +100,7 @@ SchemaLexer.symbolicNames = [null, null,
     "BRACKET_CLOSE",
     "DELIMITER",
     "AT", "STRING",
-    "NAME", "NUMBER",
+    "NUMBER", "NAME",
     "NEWLINE",
     "WHITESPACE"];
 SchemaLexer.modeNames = ["DEFAULT_MODE",];
@@ -109,7 +109,7 @@ SchemaLexer.ruleNames = [
     "T__9", "T__10", "T__11", "T__12", "T__13", "T__14", "T__15", "T__16",
     "T__17", "T__18", "T__19", "T__20", "T__21", "SEMICOLON", "CURVED_BRACKET_OPEN",
     "CURVED_BRACKET_CLOSE", "BRACKET_OPEN", "BRACKET_CLOSE", "DELIMITER",
-    "AT", "STRING", "NAME", "NUMBER", "NEWLINE", "WHITESPACE",
+    "AT", "STRING", "NUMBER", "NAME", "NEWLINE", "WHITESPACE",
 ];
 SchemaLexer._serializedATN = [4, 0, 34, 271, 6, -1, 2, 0,
     7, 0, 2, 1, 7, 1, 2, 2, 7, 2, 2, 3, 7, 3, 2, 4, 7, 4, 2, 5, 7, 5, 2, 6, 7, 6, 2, 7, 7, 7, 2, 8, 7, 8, 2, 9,
@@ -133,7 +133,7 @@ SchemaLexer._serializedATN = [4, 0, 34, 271, 6, -1, 2, 0,
     1, 245, 0, 34, 1, 1, 3, 2, 5, 3, 7, 4, 9, 5, 11, 6, 13, 7, 15, 8, 17, 9, 19, 10, 21, 11, 23, 12, 25,
     13, 27, 14, 29, 15, 31, 16, 33, 17, 35, 18, 37, 19, 39, 20, 41, 21, 43, 22, 45, 23, 47, 24, 49,
     25, 51, 26, 53, 27, 55, 28, 57, 29, 59, 30, 61, 31, 63, 32, 65, 33, 67, 34, 1, 0, 4, 2, 0, 34, 34,
-    39, 39, 3, 0, 48, 57, 65, 90, 97, 122, 1, 0, 48, 57, 2, 0, 10, 10, 13, 13, 274, 0, 1, 1, 0, 0, 0,
+    39, 39, 1, 0, 48, 57, 3, 0, 48, 57, 65, 90, 97, 122, 2, 0, 10, 10, 13, 13, 274, 0, 1, 1, 0, 0, 0,
     0, 3, 1, 0, 0, 0, 0, 5, 1, 0, 0, 0, 0, 7, 1, 0, 0, 0, 0, 9, 1, 0, 0, 0, 0, 11, 1, 0, 0, 0, 0, 13, 1, 0, 0,
     0, 0, 15, 1, 0, 0, 0, 0, 17, 1, 0, 0, 0, 0, 19, 1, 0, 0, 0, 0, 21, 1, 0, 0, 0, 0, 23, 1, 0, 0, 0, 0, 25,
     1, 0, 0, 0, 0, 27, 1, 0, 0, 0, 0, 29, 1, 0, 0, 0, 0, 31, 1, 0, 0, 0, 0, 33, 1, 0, 0, 0, 0, 35, 1, 0, 0,
