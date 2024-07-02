@@ -2,7 +2,7 @@
   "name": "@mapped.js/cli",
   "description": "CLI for node-mapped-buffer, a implementation of Memory Mapped Buffer for node.js.",
   "author": "Fynn Haupt",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "keywords": [
     "Memory",
@@ -14,7 +14,7 @@
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "bin": {
-    "mapped.js": "./dist/cli.js"
+    "mappedjs": "./dist/cli.js"
   },
   "exports": {
     ".": {
